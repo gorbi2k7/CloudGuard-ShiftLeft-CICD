@@ -27,7 +27,7 @@ pipeline {
              
                 
             
-                sh 'chmod +x shiftleft' 
+                sh 'chmod 777 ./shiftleft' 
 
                 sh './shiftleft code-scan -s .'
            
